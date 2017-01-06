@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- build:css css/vendor.min.css -->
+    <!-- endbuild -->
+
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+
+    <div class="calculator">
+       
+        <input type="text" id="history-input" disabled>
+        <input type="text" id="input" disabled>
+        
+        <div class="row">
+            <button id="btn-MR">MR</button>
+            <button id="btn-Madd">M+</button>
+            <button id="btn-Msub">M-</button>
+            <button id="btn-bsp" value="bsp">&larr;</button>
+            <button id="btn-clean" value="C">C</button>
+        </div>
+        <div class="row">
+            <button id="btn7" value="7">7</button>
+            <button id="btn8" value="8">8</button>
+            <button id="btn9" value="9">9</button>
+            <button id="btn-div" value="/">/</button>
+            <button id="btn-pow" value="pow">x&sup2;</button>
+        </div>
+        <div class="row">
+            <button id="btn4" value="4">4</button>
+            <button id="btn5" value="5">5</button>
+            <button id="btn6" value="6">6</button>
+            <button id="btn-mult" value="*">*</button>
+            <button id="btn-sqr" value="sqr">&radic;</button>
+        </div>
+        <div class="row">
+            <button id="btn1" value="1">1</button>
+            <button id="btn2" value="2">2</button>
+            <button id="btn3" value="3">3</button>
+            <button id="btn-sub" value="-">-</button>
+            <button id="btn-prc" value="%">%</button>
+        </div>
+        <div class="row">
+            <button id="btn0" value="0">0</button>
+            <button id="btn-dot" value=".">.</button>
+            <button id="btn-add" value="+">+</button>
+            <button id="btn-equal" value="=">=</button>
+        </div>
+
+    </div>
+
+
+    <!-- build:js js/vendor.min.js -->
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js js/main.min.js -->
+    <script src="js/app.js"></script>
+    <!-- endbuild -->
+</body>
